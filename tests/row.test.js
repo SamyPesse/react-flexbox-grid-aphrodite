@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
-import { css, StyleSheet } from 'aphrodite';
+import { css, StyleSheet } from 'aphrodite-to-jss';
 
 import { Row, style } from '../src/components';
 

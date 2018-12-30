@@ -1,4 +1,4 @@
-import { StyleSheet } from 'aphrodite';
+import { StyleSheet } from 'aphrodite-to-jss';
 import styles from '../grid/grid';
 
 // Create the styles and store them in memory so we

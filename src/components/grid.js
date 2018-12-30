@@ -1,5 +1,5 @@
 import { createElement } from 'react';
-import { css } from 'aphrodite/no-important';
+import { css } from 'aphrodite-to-jss';
 import PropTypes from 'prop-types';
 import createProps from './create-props';
 import style from '../components/style';
@@ -9,7 +9,7 @@ const propTypes = {
   fluid: PropTypes.bool,
   className: PropTypes.string,
   tagName: PropTypes.string,
-  // Aphrodite SheetDefinitions
+  // aphrodite-to-jss SheetDefinitions
   styles: PropTypes.any,
   children: PropTypes.node,
 };

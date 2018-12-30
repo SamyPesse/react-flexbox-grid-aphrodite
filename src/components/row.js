@@ -1,5 +1,5 @@
 import { createElement } from 'react';
-import { css } from 'aphrodite/no-important';
+import { css } from 'aphrodite-to-jss';
 import PropTypes from 'prop-types';
 import createProps from './create-props';
 import style from './style';
@@ -20,7 +20,7 @@ const propTypes = {
   first: PropTypes.string,
   last: PropTypes.string,
   className: PropTypes.string,
-  // Aphrodite SheetDefinitions
+  // aphrodite-to-jss SheetDefinitions
   styles: PropTypes.any,
   tagName: PropTypes.string,
   children: PropTypes.node,
